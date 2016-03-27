@@ -46,6 +46,9 @@ body {
             margin-left: 25px;
             margin-right: 40px;
             text-decoration: none;
+            &:hover {
+                color: $color_red;
+            }
         }
     }
 }
@@ -138,7 +141,7 @@ section {
             height: 220px;
             border-radius: 50%;
 
-            :hover {
+            &:hover {
                 -webkit-filter: grayscale(100%);
                 filter: grayscale(100%);
                 -webkit-transition: 2s linear;

@@ -116,6 +116,8 @@ body {
       margin-left: 25px;
       margin-right: 40px;
       text-decoration: none; }
+      body nav a:hover {
+        color: #cc0000; }
 
 .section-main {
   font-size: 18px; }
@@ -191,7 +193,7 @@ section {
       width: 220px;
       height: 220px;
       border-radius: 50%; }
-      .section-figures figure img :hover {
+      .section-figures figure img:hover {
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
         -webkit-transition: 2s linear;
