@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("iceot?69asbw");
+  src: url("icomoon.eot?69asbw#iefix") format("embedded-opentype"), url("icomoon.ttf?69asbw") format("truetype"), url("icomoon.woff?69asbw") format("woff"), url("icomoon.svg?69asbw#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: black;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-arrows_move2:before {
+  content: "\e900";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_plus:before {
+  content: "\e901";
+  font-size: 60px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_question:before {
+  content: "\e902";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_right_double-31:before {
+  content: "\e903";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_rotate_anti_dashed:before {
+  content: "\e904";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_shrink_diagonal1:before {
+  content: "\e905";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_sign_left:before {
+  content: "\e906";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_sign_right:before {
+  content: "\e907";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_slide_right1:before {
+  content: "\e908";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+.icon-arrows_square_left:before {
+  content: "\e909";
+  font-size: 45px;
+  font-family: 'icomoon'; }
+
+@font-face {
+  font-family: roboto-light;
+  src: url(Roboto-Light.ttf); }
+@font-face {
+  font-family: roboto-regular;
+  src: url(Roboto-Regular.ttf); }
+body {
+  background-color: #49494B;
+  font-family: roboto-light; }
+  body .body-section {
+    background-color: white; }
+    body .body-section > div {
+      margin-bottom: 15px;
+      margin-left: 82%; }
+  body header {
+    margin: 0px 20px;
+    box-shadow: 5px 5px 3px #908D8D; }
+    body header #logo {
+      width: 28%;
+      margin-top: 24px;
+      margin-bottom: 52px;
+      margin-left: 25px; }
+    body header #banner {
+      width: 68%;
+      float: right; }
+  body nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 23px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    background: #FBFCFC;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #FBFCFC);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #FBFCFC);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #FBFCFC);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, white, #FBFCFC, #D1D2D3);
+    /* Standard syntax */ }
+    body nav a {
+      color: #908D8D;
+      font-weight: 600;
+      font-size: 25px;
+      margin-left: 25px;
+      margin-right: 40px;
+      text-decoration: none; }
+
+.section-main {
+  font-size: 18px; }
+
+section {
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+  section article {
+    margin-left: 55px;
+    margin-right: 16px;
+    width: 65%;
+    float: left; }
+    section article h1 {
+      font-size: 24px;
+      color: #cc0000;
+      transform: scale(1, 1.4); }
+    section article .para-footer {
+      color: green;
+      margin-bottom: -19px; }
+  section aside {
+    width: 25%;
+    margin-right: 32px;
+    margin-top: 20px;
+    float: right; }
+    section aside .search-input {
+      width: 65%;
+      border: #cc0000 solid 1px;
+      height: 30px; }
+    section aside .search-button {
+      border: #cc0000 solid 1px;
+      height: 30px;
+      width: 33%;
+      color: #cc0000; }
+    section aside .resourse-header {
+      background-color: #908D8D; }
+      section aside .resourse-header h4 {
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 15px; }
+    section aside .listing {
+      list-style: none;
+      color: #5F5E5E;
+      font-weight: bold;
+      margin-left: -10px;
+      margin-right: 26px; }
+      section aside .listing .resource-1::before {
+        content: "1.  "; }
+      section aside .listing .resource-2::before {
+        content: "2.  "; }
+      section aside .listing .resource-3::before {
+        content: "3.  "; }
+      section aside .listing .resource-4::before {
+        content: "4.  "; }
+      section aside .listing .resource-5::before {
+        content: "5.  "; }
+      section aside .listing .resource-6::before {
+        content: "6.  "; }
+      section aside .listing hr {
+        border-style: dashed; }
+
+.section-figures {
+  width: 100%;
+  margin-top: 50px; }
+  .section-figures figure {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-left: 50px; }
+    .section-figures figure img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%; }
+      .section-figures figure img :hover {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: 2s linear;
+        transition: 2s linear; }
+
+section > div {
+  margin-top: 20px;
+  display: inline-block;
+  width: 30%; }
+  section > div ul {
+    list-style-type: none; }
+    section > div ul li {
+      color: #908D8D;
+      margin-top: 7px;
+      font-size: 20px; }
+      section > div ul li input {
+        display: table-cell;
+        vertical-align: middle; }
+
+div > label {
+  color: white;
+  font-size: 20px;
+  margin-left: 40px; }
+
+.services {
+  float: left; }
+
+.contact {
+  width: 38%;
+  margin-left: 13px; }
+  .contact input {
+    padding-left: 5px;
+    width: 260px;
+    height: 24px;
+    background-color: #C5CBD1;
+    border-radius: 10px;
+    margin-right: 13%;
+    float: right; }
+  .contact ul {
+    margin-left: 56px; }
+
+li > label {
+  text-align: right; }
+
+.submit {
+  float: right;
+  width: 150px;
+  height: 45px;
+  font-size: 20px;
+  color: white;
+  margin-top: -16px;
+  border: 1px solid #2F2E2E;
+  border-radius: 15px;
+  margin-right: 60px;
+  background: #FBFCFC;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#138594, #0F5480);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#138594, #0F5480);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#138594, #0F5480);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#138594, #138594, #0F5480, #0F5480);
+  /* Standard syntax */ }
+
+footer {
+  color: #908D8D;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 80px; }
+
+::-webkit-input-placeholder {
+  color: black;
+  font-style: italic; }
+
+/*# sourceMappingURL=output.css.map */
